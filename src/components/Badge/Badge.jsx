@@ -1,10 +1,10 @@
 import classNames from "classnames"
 
-export default function Badge({type, color, children, ...rest}){
+export default function Badge({type="square", color="grey" , children, ...rest}){
 
     const allClassNames = classNames("badge", type, color)
 
     return(
-        <span className={allClassNames}>{children}</span>
+        <span className={allClassNames} {...rest}>{children}</span>
     )
 }

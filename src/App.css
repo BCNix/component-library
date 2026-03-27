@@ -1,5 +1,21 @@
+span.badge{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    padding: 6px 12px;
+    line-height: 20px;
+}
+
+span.badge.square{
+    border-radius: 4px;
+}
+
 span.badge.pill{
     border-radius: 12px;
+}
+
+span.badge.grey{
+    background-color: #F3F4F6;
+    color: #1F2937;
 }
 
 span.badge.red{
@@ -37,12 +53,39 @@ span.badge.pink{
     color: #9D174D;
 }
 
-span.badge{
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    padding: 6px 12px;
-    line-height: 20px;
-    border-radius: 4px;
-    background-color: #F3F4F6;
-    color: #1F2937;
+
+span.banner{
+    display: flex;
+    width: 896px;
+    font-size: 0.875rem;
+    padding: 16px;
+    gap: 14px;
+    align-items: center;
+    border-radius: 6px;
 }
+
+span svg{
+    width: 16px;
+    height: 16px;
+}
+
+span.success{
+    background-color: #ECFDF5;
+    color: #065F46;
+}
+
+span.warning{
+    background-color: #FFFBEB;
+    color: #92400E;
+}
+
+span.error{
+    background-color: #FEF2F2;
+    color: #92400E;
+}
+
+span.neutral{
+    background-color: #EFF6FF;
+    color: #1E40AF;
+}
+

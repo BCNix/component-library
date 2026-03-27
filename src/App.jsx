@@ -1,11 +1,12 @@
 import './App.css'
 import React from 'react'
 import Badge from './components/Badge/Badge'
+import Banner from './components/Banner/Banner'
 
 function App() {
   return (
     <>
-      <Badge>Popular</Badge>
+      {/* <Badge>Popular</Badge>
       <Badge type="square" color="grey">Popular</Badge>
       <Badge type="square" color="red">Popular</Badge>
       <Badge type="square" color="yellow">Popular</Badge>
@@ -25,7 +26,12 @@ function App() {
       <Badge type="pill" color="blue">Popular</Badge>
       <Badge type="pill" color="indigo">Popular</Badge>
       <Badge type="pill" color="purple">Popular</Badge>
-      <Badge type="pill" color="pink">Popular</Badge>
+      <Badge type="pill" color="pink">Popular</Badge> */}
+
+      <Banner status="success"></Banner>
+      <Banner status="warning"></Banner>
+      <Banner status="error"></Banner>
+      <Banner status="neutral"></Banner>
 
 
     </>
