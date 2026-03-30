@@ -28,12 +28,23 @@ function App() {
       <Badge type="pill" color="purple">Popular</Badge>
       <Badge type="pill" color="pink">Popular</Badge> */}
 
-      <Banner status="success"></Banner>
+      {/* <Banner status="success"></Banner>
+      <br/>
       <Banner status="warning"></Banner>
+      <br/>
       <Banner status="error"></Banner>
+      <br/>
       <Banner status="neutral"></Banner>
-
-
+      <br/>
+      <hr/>
+      <br/>
+      <Banner status="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+      <br/>
+      <Banner status="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+      <br/>
+      <Banner status="error">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+      <br/>
+      <Banner status="neutral">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner> */}
     </>
   )
 }

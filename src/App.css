@@ -54,38 +54,65 @@ span.badge.pink{
 }
 
 
-span.banner{
-    display: flex;
+/* Banner */
+
+div.banner{
     width: 896px;
+    border-radius: 6px;
     font-size: 0.875rem;
     padding: 16px;
-    gap: 14px;
-    align-items: center;
-    border-radius: 6px;
 }
 
-span svg{
+div.banner .status{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 14px;
+}
+
+div.banner p{
+    font-weight: 400;
+    margin: 0.64em 0 0 2.14em;
+}
+
+div.banner svg{
     width: 16px;
     height: 16px;
 }
 
-span.success{
+div.success{
     background-color: #ECFDF5;
     color: #065F46;
 }
 
-span.warning{
+div.success p{
+    color: #047857;
+}
+
+div.warning{
     background-color: #FFFBEB;
     color: #92400E;
 }
 
-span.error{
+div.warning p{
+    color: #B45309;
+}
+
+div.error{
     background-color: #FEF2F2;
     color: #92400E;
 }
 
-span.neutral{
+div.error p{
+    color: #B91C1C;
+}
+
+div.neutral{
     background-color: #EFF6FF;
     color: #1E40AF;
+}
+
+div.neutral p{
+    color: #1C51B9;
 }
 
